@@ -27,6 +27,7 @@ The files included in this repo are:
 
 ##Running the code:
 To run the code just:
+
 1. Copy the repo to your local directory.
 2. run source("run_analysis.r").
 
