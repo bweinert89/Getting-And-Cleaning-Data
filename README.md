@@ -13,25 +13,25 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 You should create one R script called run_analysis.R that does the following.
 
-1. -item Merges the training and the test sets to create one data set.
-2. -item Extracts only the measurements on the mean and standard deviation for each measurement.
-3. -item Uses descriptive activity names to name the activities in the data set
-4. -item Appropriately labels the data set with descriptive variable names.
-5. -item From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names.
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ##Files
 The files included in this repo are:
--item run_analysis.r: The main code that downloads the dataset, unzips it creating a "data" directory, and performs the analysis.
--item CodeBook.md: The codebook which describes the variables, data and transformations performed on the data.
--item tidy_data.txt: The output of run_analysis.r.
+* run_analysis.r: The main code that downloads the dataset, unzips it creating a "data" directory, and performs the analysis.
+* CodeBook.md: The codebook which describes the variables, data and transformations performed on the data.
+* tidy_data.txt: The output of run_analysis.r.
 
 ##Running the code:
 To run the code just:
-1. -item Copy the repo to your local directory.
-2. -item run source("run_analysis.r").
+1. Copy the repo to your local directory.
+2. run source("run_analysis.r").
 
 
 ##Dependencies
 The code assumes you have installed:
--item The data.table package.
--item The dplyr package.
+* The data.table package.
+* The dplyr package.
