@@ -24,6 +24,7 @@ The files included in this repo are:
 * run_analysis.r: The main code that downloads the dataset, unzips it creating a "data" directory, and performs the analysis.
 * CodeBook.md: The codebook which describes the variables, data and transformations performed on the data.
 * tidy_data.txt: The output of run_analysis.r.
+* README.txt:  The readme file for the project.
 
 ##Running the code:
 To run the code just:
