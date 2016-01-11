@@ -3,6 +3,7 @@ The codebook that provides the description of the data, varaibles, and any trans
 
 ##Original Dataset
 Dataset:  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 Description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
 
 ###Dataset Information
@@ -81,4 +82,8 @@ tBodyGyroJerkMean
 
 ##Transformations
 
-##Running the code:
+##Running the code
+The code assumes the data.table and dplyr packages have been installed.  To run the code just:
+
+1. Copy the repo to your local directory.
+2. Run source("run_analysis.r").
