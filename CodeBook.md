@@ -80,6 +80,8 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 * tBodyGyroMean
 * tBodyGyroJerkMean
 
+There are 30 test subjects, ranging from 1-30.  The average of each measurement for the 6 activities (laying, sitting, standing, walking, walkingDownstairs, walkingUpstairs) for each of the subjects is included in the tidy dataset.
+
 ##Transformations
 
 1. If there is no directory called data, a data directory is created.  Then the file is downloaded and unzipped.
