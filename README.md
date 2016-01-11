@@ -29,7 +29,7 @@ The files included in this repo are:
 To run the code just:
 
 1. Copy the repo to your local directory.
-2. run source("run_analysis.r").
+2. Run source("run_analysis.r").
 
 
 ##Dependencies
