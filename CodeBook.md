@@ -82,6 +82,15 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 ##Transformations
 
+1. If there is no directory called data, a data directory is created.  Then the file is downloaded and unzipped.
+2. Merges the equivalent train and test files using rbind()
+3. Selects only the columns from dataset which include the variable name mean(mean()) or standard deviation (std()) using "features.txt" and select().
+4. Gets descripitive activity names from "activity_labels.txt" in place of the activity id.  Removes "_" and replaces and captialize the letter of any second word.
+5. Merge each of the subject, activity label, and activity datasets using cbind().
+6. Creates a second, indepedent tidy dataset with the average of each variable for each of the subjects and activities.
+7. Clean up variable names by using gsub to change prefix "t" to time and "f" to freq, removing "-", capitalizing mean and std, and removing "()".
+8. Write the tidy dataset to tidy_data.txt.
+
 ##Running the code
 The code assumes the data.table and dplyr packages have been installed.  To run the code just:
 
