@@ -4,10 +4,10 @@ library(dplyr)
 #Check if file exists and download it into data directory, unzip the file.
 url<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 name<-"Dataset.zip"
-if(!file.exists("data")){
-        dir.create("data")
-        download.file(url,file.path("data",name))
-        unzip(file.path("data",name))
+if(!file.exists("dataForProject")){
+        dir.create("dataForProject")
+        download.file(url,file.path("dataForProject",name))
+        unzip(file.path("dataForProject",name))
 }
 
 #Read in the files from the unzipped directory
