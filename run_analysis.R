@@ -65,7 +65,7 @@ id_label=c("subject","activityLabel")
 Meas_labels<-setdiff(names(df),id_label)
 
 #Melt to create a long dataset with the id, the measurement, and the value.
-melt_df<-melt(df,id=id_label,meas.vars=data_labels)
+melt_df<-melt(df,id=id_label,meas.vars=Meas_labels)
 
 #Now create tidy dataset with average of each variable for each subject and activity.
 tidy_df<-dcast(melt_df,subject+activityLabel~variable, mean)
